@@ -41,6 +41,7 @@ h1 {
 
 #container-inputs {
   display: flex;
+  align-items: center;
   padding: 20px;
 }
 
@@ -53,4 +54,27 @@ h1 {
   padding-left: 30px;
 }
 
+#input-submit {
+  font-weight: bold;
+  color: beige;
+  background-color: rgb(73, 107, 113);
+  border: none;
+  padding: 8px 42px;
+  border-radius: 4px;
+  margin-left: 12px;
+}
 
+#container-result .red {
+  color: red;
+  font-weight: bold;
+}
+
+#container-result .green {
+  color: green;
+  font-weight: bold;
+}
+
+#container-result .blue {
+  color: blue;
+  font-weight: bold;
+}
